@@ -7,8 +7,7 @@ The Flysystem ist integrated to Magento2 using Adapters. This works with 2 diffe
 * FilesystemAdapterFactory which is used to generate a FilesystemAdapter this class should be used if you want to create an own module with the filesystem classes, or to provide a new Flysystem Adapter that is not integratet into this module.
 * The Factory works with the return values of the FilesystemManager to return a new FilesystemAdapter.
 
-```
-#!php
+```php
 $this->_filesystemAdapter = $this->_filesystemAdapterFactory->create($this->_filesystemManager->createLocalDriver('/'));
 ```
 
