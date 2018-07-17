@@ -15,7 +15,7 @@ composer require flagbit/magento2-flysystem "^0.1.1"
 ```
 * Update composer using this command
 ```
-composer update --ignore-platform-reqs
+composer update
 ```
 * Get the current files on your magento system and run this commands in the Webroot for your Webshop
 ```
