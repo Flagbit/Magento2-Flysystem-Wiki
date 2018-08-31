@@ -1,3 +1,8 @@
+[![Latest Stable Version](https://poser.pugx.org/flagbit/magento2-flysystem/v/stable?format=flat-square)](https://packagist.org/packages/flagbit/magento2-flysystem)
+[![GitHub issues](https://img.shields.io/github/issues/Flagbit/Magento2-Flysystem.svg?style=flat-square)](https://github.com/Flagbit/Magento2-Flysystem/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Flagbit/Magento2-Flysystem.svg?style=flat-square)](https://github.com/Flagbit/Magento2-Flysystem/stargazers)
+[![GitHub license](https://img.shields.io/github/license/Flagbit/Magento2-Flysystem.svg?style=flat-square)](https://github.com/Flagbit/Magento2-Flysystem/blob/develop/LICENSE)
+
 Magento2 Flysystem Module from [Flagbit](https://www.flagbit.de/) integrate [Flysystem](https://flysystem.thephpleague.com/)
 an Abstraction for local and remote filesystems into Magento2 without overriding or breaking core media storage functions.
 
