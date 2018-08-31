@@ -3,11 +3,12 @@ an Abstraction for local and remote filesystems into Magento2 without overriding
 
 ## Features ##
 
-* Integrate Flysystem to configure different file storages like **ftp**, **local** and **cloud** (S3).
+* Integrate Flysystem to configure different file storages like **sftp**, **local** and **cloud** (S3).
     *  Provide modularity to easily integrate more adapters in the projects which use it.
 * Integrate image modal for Magento2 product and category image uploads.
     *  You can select from the same **file-pool** instead of uploading from local.
     *  So you can select an image like in the image selector for cms pages and blocks.
+* Integrate **file-pool** from flysystem adapter for cms blocks and cms pages.    
 * ACL Configuration for insert, upload, delete files and for create, delete folders and more.
 * Separate media page for fast access to flysystem media files. No need for WYSIWYG-Editor Button.
     
